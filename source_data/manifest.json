@@ -1,0 +1,27 @@
+{
+  "title": "QCGD manuscript source data",
+  "generated_on": "2026-10-14",
+  "canonical_configuration": {
+    "iterations": 3,
+    "grid_points": 20,
+    "parameter_domain": [
+      0.0,
+      0.5
+    ],
+    "trotter_steps": 5
+  },
+  "format": "CSV with UTF-8 encoding and a header row",
+  "excluded": "Full statevectors, compiled circuits, Python pickle containers, caches, and generated plots.",
+  "provenance_note": "Values were extracted from the authors local legacy result files. Legacy pickle files are not distributed.",
+  "files": {
+    "SHA256SUMS": "SHA-256 checksums for all distributed source-data files.",
+    "figure4_gd_cgd.csv": "Numerical values underlying Figure 4.",
+    "figure5_landscapes.csv": "Full two-dimensional grids underlying Figure 5.",
+    "figure5_slices.csv": "One-dimensional gamma slices plotted in Figure 5.",
+    "figures6_8_results.csv": "Energy, fidelity, and compiled-resource values underlying Figures 6-8.",
+    "selected_parameters.csv": "Selected mu and gamma values for canonical runs.",
+    "table1_excess_energy_advantage.csv": "Unrounded values underlying Table I.",
+    "table2_final_fidelities.csv": "Unrounded values underlying Table II.",
+    "table3_matched_fidelity_resources.csv": "Unrounded values and counts underlying Table III."
+  }
+}

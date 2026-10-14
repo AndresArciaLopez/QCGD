@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Locally generated calculation results
+alpha1beta1/
+spectra.pickle
+plots/
+

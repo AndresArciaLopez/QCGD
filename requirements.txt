@@ -1,0 +1,8 @@
+qrisp==0.9.6
+numpy==2.4.6
+scipy==1.17.1
+sympy==1.13.0
+networkx==3.6.1
+matplotlib==3.11.1
+jupyterlab>=4,<5
+
