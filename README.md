@@ -30,8 +30,8 @@ python -m pip install -r requirements.txt
 
 ## Reproducing the calculations
 
-Open `algorithm_data.ipynb` from this directory and run the cells in order. 
-The manuscript calculation uses:
+Open `algorithm_data.ipynb` from this directory and run the cells in order, 
+excluding cells marked optional if required. The manuscript calculation uses:
 
 - 2 Trotter steps;
 - 3 QCGD/DB-QITE iterations;
@@ -57,17 +57,6 @@ The shareable numerical values are provided as CSV files in `source_data/`.
 They were exported from the existing pickle result files; see
 `source_data/README.md` and `source_data/manifest.json`. The original pickle
 workflow is unchanged for new calculations.
-
-## Tests
-
-From the repository root, run:
-
-```bash
-python -m unittest discover -v
-```
-
-The tests cover the unitary-descent implementation and the DB-QITE/unitary
-gradient-descent comparison.
 
 ## Licence
 
