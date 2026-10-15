@@ -1,6 +1,5 @@
 {
   "title": "QCGD manuscript source data",
-  "generated_on": "2026-10-14",
   "canonical_configuration": {
     "iterations": 3,
     "grid_points": 20,
@@ -8,11 +7,11 @@
       0.0,
       0.5
     ],
-    "trotter_steps": 5
+    "trotter_steps": 2
   },
   "format": "CSV with UTF-8 encoding and a header row",
   "excluded": "Full statevectors, compiled circuits, Python pickle containers, caches, and generated plots.",
-  "provenance_note": "Values were extracted from the authors local legacy result files. Legacy pickle files are not distributed.",
+  "provenance_note": "Values were extracted from the local result files. Original pickle files are not distributed.",
   "files": {
     "SHA256SUMS": "SHA-256 checksums for all distributed source-data files.",
     "figure4_gd_cgd.csv": "Numerical values underlying Figure 4.",

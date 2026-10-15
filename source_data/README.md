@@ -1,8 +1,8 @@
 # Source data
 
 These CSV files contain the numerical values underlying the manuscript figures
-and tables. They are compact exports from the authors' existing local pickle
-files; no values were recalculated during the cleanup.
+and tables. They are compact exports from the existing local pickle
+files.
 
 | File | Contents |
 | --- | --- |

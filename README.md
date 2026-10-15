@@ -1,7 +1,6 @@
 # QCGD
 
-Code and source data for the QCGD manuscript. This cleaned copy keeps the
-original notebook-led workflow and the original pickle-based data storage.
+Code and source data for the QCGD manuscript.
 
 ## Repository contents
 
@@ -10,7 +9,7 @@ original notebook-led workflow and the original pickle-based data storage.
   tables.
 - `qcgd.py`, `qite.py`, `run_qcgd.py`, and `run_qite.py` contain the algorithm
   and execution routines used by the notebooks.
-- `saveload.py` contains the original `save_data` and `load_data` pickle helpers.
+- `saveload.py` contains the `save_data` and `load_data` pickle helpers.
 - `unitary_descent.py` and `plot_comparison_energies.py` support the comparison
   calculations and plots.
 - `source_data/` contains the CSV values underlying the manuscript figures and
@@ -31,15 +30,15 @@ python -m pip install -r requirements.txt
 
 ## Reproducing the calculations
 
-Open `algorithm_data.ipynb` from this directory and run the cells in order. The
-canonical manuscript calculation uses:
+Open `algorithm_data.ipynb` from this directory and run the cells in order. 
+The manuscript calculation uses:
 
-- 5 Trotter steps;
+- 2 Trotter steps;
 - 3 QCGD/DB-QITE iterations;
 - 20 equally spaced parameter values on the interval `[0, 0.5]`.
 
-The notebook saves results below `alpha1beta1/` and saves the spectrum as
-`spectra.pickle`. These files can be large, so they are not committed. Keeping
+The notebook saves results below `alpha1beta1/` and saves the spectrum of th Heisenberg Hamiltonian 
+as `spectra.pickle`. These files can be large, so they are not committed. Keeping
 the notebook and repository root together is important because `saveload.py`
 uses paths relative to its own location.
 
@@ -49,13 +48,13 @@ LaTeX executable is available and Matplotlib's built-in text renderer is used
 otherwise.
 
 The extended `[0, 1.5]` scans retained in the plotting notebook are only used
-for the extended-landscape comparison in Figure 5. The canonical convergence
+for the extended-landscape comparison in Figure 5. The principal convergence
 runs use `[0, 0.5]`.
 
 ## Source data
 
 The shareable numerical values are provided as CSV files in `source_data/`.
-They were exported from the authors' existing pickle result files; see
+They were exported from the existing pickle result files; see
 `source_data/README.md` and `source_data/manifest.json`. The original pickle
 workflow is unchanged for new calculations.
 
